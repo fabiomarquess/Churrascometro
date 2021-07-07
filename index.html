@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Churrascômetro</title>
+</head>
+<body onload="alerta()">
+
+     <div id="alerta">
+            <h1>Seja bem vindo ao Churrascômetro...</h1>
+            <br>
+            <button onclick="fecha()" >Continuar</button>
+       </div>
+
+          <div id="container">
+               <header>
+                    
+                         <marquee behavior="scroll" direction="left"><h1> <pre>Churrascômetro...         Churrascômetro...         Churrascômetro...</pre></h1>
+                         </marquee>
+                   
+               </header>
+
+
+               <section>
+
+                    <h1>Churrascômetro</h1>
+                    <input type="number" name="adultos" id="adultos" placeholder="Adultos">
+                    <input type="number" name="criancas" id="criancas" placeholder="Crianças">
+                    <input type="number" name="duracao" id="duracao" placeholder="Duração (h)">
+                    <button onclick="calcular()">Calcular</button>
+                    <button onclick="limpar()">Limpar</button>
+          
+
+                    
+
+          
+               </section>
+
+               <aside>
+                    <h1>Resultado</h1>
+                    <div id="resultado"></div>
+          
+          
+                  </aside>
+          
+
+              <footer class="footer">
+
+                    <div>
+                         <p>
+                              By <a href="">Fabio Marques</a> | <a
+                              href="">Source code</a>
+                         </p>
+                    </div>
+               </footer>
+          </div>
+       
+       
+    
+    
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
+
